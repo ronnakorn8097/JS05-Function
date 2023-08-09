@@ -12,9 +12,6 @@ sendTo(null); // ** null endefiend
 ```
 
 
-
-
-
 ```js
 const sender = 'Matt';
 
@@ -22,6 +19,6 @@ function sendTo(to, from = 'CC') {
     console.log(`From ${from} to ${to}`);
 }
 
-sendTo('Max'); // *** cc max
-sendTo('Ben', 'Jay'); // **** jay bem
+sendTo('Max'); // *** From cc to max
+sendTo('Ben', 'Jay'); // **** From jay to bem
 ```
