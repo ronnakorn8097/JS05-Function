@@ -7,4 +7,6 @@ function sayHi() {
 }
 name = 'Pete';
 sayHi(); // *
+
+// pete เพราะ pete ถูก reassgin
 ```
