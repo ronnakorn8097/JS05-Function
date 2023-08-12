@@ -2,5 +2,6 @@
 
 ```js
 const logName = (name) => console.log(name);
-const logName = name => console.log(name);
+const logName = name => console.log(name); 
+// สามารถทำงานได้
 ```
