@@ -2,9 +2,12 @@
 
 ```js
 let name = 'John';
+
 function sayHi() {
   alert('Hi, ' + name);
 }
 name = 'Pete';
 sayHi(); // *
+
+// pete เพราะ pete ถูก reassgin
 ```

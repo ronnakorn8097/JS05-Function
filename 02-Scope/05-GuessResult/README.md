@@ -5,12 +5,15 @@ let message = "Welcome to Thailand";
 
 function logMessage(message) {
   message = "Hello everybody";
-  console.log(message); // *
+  console.log(message); // * hello every body
 }
 
 logMessage(message);
-console.log(message); // **
+console.log(message); // ** welcome to thailand เพราะ ตัวแปรที่ใช้เป็น global
 ```
+
+
+
 
 ```js
 let name = "John";
